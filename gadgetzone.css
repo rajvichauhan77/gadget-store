@@ -1,0 +1,236 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .main{
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .container{
+        width: 100%;
+       
+    }
+
+    .nav{
+        max-width: 1900px;
+        min-width: 150px;
+       
+        margin: 10px;
+        display: flex;
+
+
+    }
+
+    .nav1{
+        width: 1500px;
+        
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nav2{
+        width: 400px;
+        margin: 5px;
+        padding: 10px;
+        
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .home{
+        width: 100%;
+       
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home1{
+        max-width: 1900px;
+        min-width: 150px;
+       
+        margin: 10px;
+        display: flex;
+       
+    }
+
+    .home2{
+        width: 1850px;
+        
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        color: black;
+    }
+
+    .home2>a{
+        text-decoration: none;
+        margin-left: 25px;
+    }
+
+    .images{
+        width: 100%;
+       
+    }
+
+    .image{
+        max-width: 1900px;
+        min-width: 150px;
+        
+        margin: 10px;
+
+    }
+
+    .img1{
+        width: 1850px;
+        height: 600px;
+       
+        margin: 5px;
+        padding: 10px;
+        background-image: url(images/img1.jpg);
+        background-position: center;
+        position: relative;
+    
+        
+    }
+
+    .img1>h2{
+        color: white;
+        font-size: 40px;
+        margin-left: 400px;
+        margin-top: 110px;
+
+    }
+
+    .img1>p{
+        font-size: 25px;
+        color: white;
+        margin-left: 400px;
+    }
+
+    .img1>button{
+      padding: 20px;  
+      background-color: white;
+      color: rgb(246, 174, 7);
+      font-size: 20px;
+      border-radius: 30px;
+      border: 1px solid white;
+      margin-left: 400px;
+    }
+
+    .information{
+        width: 100%;
+       
+    }
+
+    .information>p{
+        margin-left: 200px;
+        color: gray;
+    }
+
+    .info{
+        max-width: 1900px;
+        min-width: 150px;
+        
+        margin: 10px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .info1{
+        width: 220px;
+       
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .options{
+        width: 100%;
+        
+    }
+
+    .photo{
+        max-width: 1900px;
+        min-width: 150px;
+        
+        margin: 10px;
+        
+    }
+
+    .infop1{
+        max-width: 1850px;
+        min-width: 150px;
+        
+        margin: 30px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .infop1>h2{
+        font-size: 30px;
+        color: rgb(61, 57, 57);
+    }
+
+    .photo1{
+        max-width: 1900px;
+        min-width: 150px;
+        
+        margin: 2px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .p1{
+        width: 400px;
+        height: 600px;
+        
+        margin: 5px;
+        text-align: center;
+        line-height: 15px;
+        
+    }
+
+    .p1>img{
+        padding: 10px;
+        margin: 10px;
+        width: 360px;
+        height:400px ;
+       padding: 10px;
+    }
+
+    .p1>button{
+        padding: 15px;  
+        background-color:transparent;
+        color: rgb(246, 174, 7);
+        font-size: 20px;
+        border-radius: 30px;
+        border: 1px solid rgb(246, 193, 3);
+      }
+
+      .allproducts{
+        width: 100%;
+        border: 1px solid black;
+      }
+
+      .product{
+        max-width: 1500px;
+        min-width: 150px;
+        border: 1px solid red;
+        margin: 90px;
+        display: flex;
+        justify-content: space-evenly;
+       
+
+      }
+
+      .pro1{
+        width: 250px;
+        height: 350px;
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid black;
+      }
