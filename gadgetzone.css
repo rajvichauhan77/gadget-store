@@ -69,6 +69,7 @@
     .home2>a{
         text-decoration: none;
         margin-left: 25px;
+        color: black;
     }
 
     .images{
@@ -299,7 +300,7 @@
 
 
       .overlay:hover{
-        background: rgb(38 23 73 / 68%);
+        background: rgb(54, 68, 83, 0.95);
         background-blend-mode: overlay;
         
       }
@@ -581,3 +582,7 @@
        width: 180px;
         
     }
+
+    /* .bestseller>.pro1>a{
+        text-decoration: none;
+    } */
