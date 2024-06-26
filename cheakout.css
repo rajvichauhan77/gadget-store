@@ -25,6 +25,7 @@
 
 .nav1{
     width: 1500px;
+    
     margin: 5px;
     padding: 10px;
     text-align: center;
@@ -42,7 +43,6 @@
     text-decoration: none;
     color: black;
 }
-
 
 .home{
     width: 100%;
@@ -76,94 +76,113 @@
     color: black;
 }
 
-.reachus{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.reach{
-    max-width: 1900px;
-    min-width: 150px;
-    background-color: #F7F8FA;
-    padding: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.reach1{
-    width: 1850px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.reach1>p{
-    margin-top: 20px;
-    color: rgb(76, 72, 72);
-    line-height: 20px;
-}
-
-.contactus{
-    width: 100%;
-}
-
-.contact{
-    width: 1300px;
-    padding: 20px;
-    margin: auto;
-    display: flex;
-
-}
-
-.coninfo1{
-    width: 400px;
-    margin: 10px;
-    padding: 20px;
-
-}
-
-.coninfo2{
-    width: 700px;
-    margin: 10px;
-    padding: 20px;
-    display: flex;
-    background-color:#EB984E;
-}
-
-.i1{
-    margin: 10px;
-    padding: 10px;
-    width: 250px;
-    color: white;
-}
-
-.i1>h5{
-    font-size: 20px;
-}
-.i1>p{
-    margin-top: 25px;
-    line-height: 25px;
-    font-size: 20px;
-}
-
-.coninfo1>p{
-    margin-top: 20px;
-    line-height: 20px;
-    color: rgb(112, 107, 107);
-}
-
-.map{
+.cheakout{
     width: 100%;
    
+    margin-top: 20px;
+    
 }
-.map>iframe{
-    width: 1200px;
-    height: 450px;
-    margin-left: 310px;
+.cheak{
+    width: 1500px;
+    
+    margin: auto;
+    padding:20px;
+    display: flex;
+}
+.cheak>a{
+    text-decoration: none;
+    color: orange;
+}
+.cheak>i{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.cheak2{
+    width: 100%;
+ 
+    margin-top: 20px;
     
 }
 
+.c1{
+    width: 1500px;
+ 
+    margin: auto;
+    padding:20px;
+    display: flex;
+    
+}
+.c1>p{
+   margin-left: 400px;
+}
+
+.cheak3{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+    
+}
+
+.form{
+    width: 1500px;
+    border: 1px solid red;
+    margin: auto;
+    padding:20px;
+    display: flex;
+    
+}
+
+.form1{
+    width: 900px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.f11>h5{
+    font-size: 20px;
+}
+
+.fname1>input{
+    padding: 5px 55px;
+}
+
+.fname2>input{
+    padding: 5px 55px;
+}
+
+.fname{
+   
+    display: flex;
+}
+
+.fname2{
+    margin-left: 250px;
+   
+}
+.form2{
+    width: 500px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.f11>input{
+    padding: 5px 320px;
+}
+
+.fadd>input{
+   padding: 30px 320px;
+}
+
+.fcity{
+    display: flex;
+}
+
+.fc>input{
+    padding: 5px 55px;
+    margin-right: 30px;
+}
 
 
 .footer{

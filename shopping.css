@@ -39,6 +39,10 @@
     text-align: left;
     font-size: 25px;
 }
+.nav2>a{
+    text-decoration: none;
+    color: black;
+}
 
 .home{
     width: 100%;
