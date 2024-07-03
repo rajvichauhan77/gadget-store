@@ -2,10 +2,16 @@
     padding: 0;
     margin: 0;
 }
-
+:root{
+    --primary-color:black;
+    --first-color:orange;
+    --second-color:gray;
+    --third-color:white;
+    
+}
 .main{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
 }
 
 .container{
@@ -41,7 +47,7 @@
 }
 .nav2>a{
     text-decoration: none;
-    color: black;
+    color: var(--primary-color);
 }
 
 
@@ -68,13 +74,13 @@
     padding: 10px;
     text-align: center;
     font-size: 25px;
-    color: black;
+    color: var(--primary-color);
 }
 
 .home2>a{
     text-decoration: none;
     margin-left: 25px;
-    color: black;
+    color: var(--primary-color);
 }
 
 .addcart{
@@ -137,7 +143,7 @@
 }
 .additem3>p{
     margin-top: 10px;
-    color: orange;
+    color: var(--first-color);
 }
 .additem3>h5{
     line-height: 30px;
@@ -180,26 +186,26 @@
     display: flex;
 }
 .c3box>a>button{
-    background-color: white;
-    color: orange;
-    border: 1px solid orange;
+    background-color: var(--third-color);
+    color: var(--first-color);
+    border: 1px solid var(--first-color);
     padding: 10px 30px;
    
 }
 .c3box>a>button:hover{
-    color: white;
-    background-color: orange;
+    color: var(--third-color);
+    background-color: var(--first-color);
 }
 
 .c3box2>a>button{
-    background-color: orange;
-    color: white;
-    border: 1px solid orange;
+    background-color: var(--first-color);
+    color: var(--third-color);
+    border: 1px solid var(--first-color);
     padding: 10px 30px;
     margin-left: 1050px;
 }
 .c3box2>a>button:hover{
-    color: white;
+    color: var(--third-color);
     background-color: rgb(199, 98, 61);
 }
 
@@ -216,7 +222,7 @@
     display: flex;
     margin-top: 20px;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: var(--third-color);
     background-color:#373A40;
    
 
@@ -231,7 +237,7 @@
 .f1>h3{
     margin-top: 50px;
     font-size: 25px;
-    color:white;
+    color:var(--third-color);
 }
 
 .f1>button{
@@ -242,13 +248,13 @@
 
 .b1{
     background-color: rgb(57, 114, 180);
-    color: white;
+    color: var(--third-color);
 }
 
 .f1>p{
     margin-top: 25px;
     line-height: 10px;
-    color:white; 
+    color:var(--third-color); 
 }
 
 .f1>a{
@@ -260,7 +266,7 @@
 }
 
 .f1>ul>li{
-    color: white;
+    color: var(--third-color);
   margin: 20px;
 }
 
@@ -272,7 +278,7 @@
 }
 .f1>.b3{
     background-color: whitesmoke;
-    color: orange;
+    color: var(--first-color);
     border: 1px solid whitesmoke;
    /* padding: 20px; */
    width: 180px;

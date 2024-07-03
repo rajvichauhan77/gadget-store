@@ -8,12 +8,15 @@
       rel="stylesheet"
     />
 
+    <link rel="icon" href="images/favi.png"/>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gadget zone</title>
   </head>
   <body>
     <div class="main">
+      <header>
       <div class="container">
         <div class="nav">
           <div class="nav1">
@@ -26,8 +29,10 @@
           </div>
         </div>
       </div>
+      </header>
       <hr />
       <br />
+      <section>
       <div class="home">
         <div class="home1">
           <div class="home2">
@@ -37,8 +42,9 @@
           </div>
         </div>
       </div>
+    </section>
 
-
+      <section>
       <div class="cheakout">
 
         <div class="cheak">
@@ -50,7 +56,9 @@
         </div>
 
       </div>
+    </section>
 
+      <section>
       <div class="cheak2">
         
         <div class="c1">
@@ -59,7 +67,10 @@
         </div>
 
       </div>
+    </section>
 
+
+      <section>
       <div class="cheak3">
         
         <div class="form">
@@ -72,15 +83,15 @@
                 <div class="fname">
 
                <div class="fname1">
-                <label for="" >First name:</label>
+                <label for="" >First name:*</label>
                 <br>
-                <input type="Name">
+                <input type="Name" placeholder="First name" required>
                </div>
 
                <div class="fname2">
-                <label for="">Last name:</label>
+                <label for="">Last name:*</label>
                 <br>
-                <input type="Name"> 
+                <input type="Name" placeholder="Last name" required> 
                 </div>
                 <br>
 
@@ -88,22 +99,104 @@
                 <br>
                 
 
-                 <label for="">Email</label>
+                 <label for="">Email*</label>
                 <br>
-                <input type="email">
+                <input type="email" placeholder="mail" required>
                  <br><br>
 
               <div class="fadd">
-                <label for="">Address:</label>
+                <label for="">Address:*</label>
                 <br>
-                <input type="address">
+                <input type="address" placeholder="address" required>
               </div>
               <br>
 
               <div class="fcity">
 
                 <div class="fc">
-                    <label for="">City</label>
+                    <label for="">City:</label>
+                    <br>
+                    <input type="city"  required>
+                </div>
+
+                <div class="fc1">
+                    <p>Country <br>United States
+                    </p>
+                </div>
+
+              </div>
+              <br>
+
+              <div class="state">
+
+                <div class="s1">
+                  <label for="">State / Province:</label>
+                  <br>
+                  <input type="int" >
+                </div>
+
+                <div class="s2">
+                  <label for="">ZIP code:*</label>
+                  <br>
+                  <input type="int" required>
+                </div>
+
+              </div>
+              <br>
+
+              <div class="tele">
+                <label for="">Telephone:*</label>
+                <br>
+                <input type="number" required>
+              </div>
+              <br>
+
+              <div class="bill">
+
+              <input type="checkbox">
+              <label for="">Billing Address is same as Shipping Address </label>
+
+            </div>
+            <br>
+
+            <h5>Billing Address</h5>
+
+            <br>
+                <div class="fname">
+
+               <div class="fname1">
+                <label for="" >First name:*</label>
+                <br>
+                <input type="Name" placeholder="First name" required>
+               </div>
+
+               <div class="fname2">
+                <label for="">Last name:*</label>
+                <br>
+                <input type="Name" placeholder="Last name" required> 
+                </div>
+                <br>
+
+                 </div>
+                <br>
+                
+
+                 <label for="">Email*</label>
+                <br>
+                <input type="email" placeholder="mail" required>
+                 <br><br>
+
+              <div class="fadd">
+                <label for="">Address:*</label>
+                <br>
+                <input type="address" required>
+              </div>
+              <br>
+
+              <div class="fcity">
+
+                <div class="fc">
+                    <label for="">City:</label>
                     <br>
                     <input type="city">
                 </div>
@@ -114,16 +207,88 @@
                 </div>
 
               </div>
+              <br>
 
-                </form>
+              <div class="state">
+
+                <div class="s1">
+                  <label for="">State / Province:</label>
+                  <br>
+                  <input type="int">
+                </div>
+
+                <div class="s2">
+                  <label for="">ZIP code:*</label>
+                  <br>
+                  <input type="int" required>
+                </div>
+
+              </div>
+              <br>
+
+              <div class="tele">
+                <label for="">Telephone:*</label>
+                <br>
+                <input type="number" required>
+              </div>
+              <br>
+              
+              <div class="billbutton">
+                <a href=""><button>Continue</button></a>
+              </div>
+
+            </form>
             </div>
 
             <div class="form2">
+
+              <div class="stiky">
+
+              <div class="coupen">
+
+                <div class="cc1">
+                  <input type="number" placeholder="Coupen code">
+                </div>
+
+                <div class="c2">
+                 
+                  <a href=""><button>Apply</button></a>
+                  
+                </div>
+
+              </div>
+              <br>
+              <hr>
+              <br>
+
+              <div class="summary">
+
+                <div class="summary1">
+                  <h6>Order Summary</h6>
+                </div>
+                <div class="summary2">
+                  <p>Subtotal (1 Items)</p>
+                  <p class="p10">$578.00</p>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+                <div class="summary3">
+                  <p>Total</p>
+                  <h6>$578.00</h6>
+                </div>
+
+              </div>
+              
+            </div>
 
             </div>
         </div>
 
       </div>
+    </section>
 
 
       <div class="footer">
@@ -142,9 +307,9 @@
           <div class="f1">
             <h3>Follow Us</h3>
             <br />
-            <a href=""><i class="ri-facebook-fill"></i></a>
-            <a href=""><i class="ri-twitter-fill"></i></a>
-            <a href=""><i class="ri-pinterest-fill"></i></a>
+            <a href="https://www.facebook.com/login/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><i class="ri-twitter-fill"></i></a>
+                <a href="https://in.pinterest.com/#top" target="_blank"><i class="ri-pinterest-fill"></i></a>
           </div>
 
           <div class="f1">

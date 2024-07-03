@@ -12,6 +12,13 @@
     width: 100%;
    
 }
+:root{
+    --primary-color:black;
+    --first-color:orange;
+    --second-color:gray;
+    --third-color:white;
+    
+}
 
 .nav{
     max-width: 1900px;
@@ -41,7 +48,7 @@
 }
 .nav2>a{
     text-decoration: none;
-    color: black;
+    color: var(--primary-color);
 }
 
 .home{
@@ -67,13 +74,13 @@
     padding: 10px;
     text-align: center;
     font-size: 25px;
-    color: black;
+    color: var(--primary-color);
 }
 
 .home2>a{
     text-decoration: none;
     margin-left: 25px;
-    color: black;
+    color: var(--primary-color);
 }
 
 .shop{
@@ -87,7 +94,7 @@
     padding: 20px;
     max-width: 1300px;
     min-width: 150px;
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
     display: flex;
 }
 
@@ -138,12 +145,12 @@
     background-color:#373A40 ;
     font-size: 15px;
     padding: 10px 50px;
-    color: white;
+    color: var(--third-color);
     border: none;
     border-radius: 5px;
 }
 .iteminfo>button>i{
-    color: white;
+    color: var(--third-color);
     font-size: 15px;
     margin-left: 35px;
 }
@@ -178,7 +185,7 @@
     padding: 2px;
     line-height: 30px;
     margin-top: 90px;
-    color: gray;
+    color: var(--second-color);
 }
 .star>p{
     margin-top: 10px;
@@ -231,7 +238,7 @@
 
 .overlay>button{
     display: none;
-    background-color: white;
+    background-color: var(--third-color);
     color: rgb(59, 33, 96);
     border-radius: 20px;
     padding: 10px;
@@ -244,8 +251,8 @@
 
 .overlay>.add{
     display: none;
-    background-color: orange;
-    color:white;
+    background-color: var(--first-color);
+    color:var(--third-color);
     border-radius: 20px;
     padding: 10px;
     font-size: 20px;
@@ -259,7 +266,7 @@
 
 .overlay>p{
     display: none;
-    color:white;
+    color:var(--third-color);
     padding: 10px;
     font-size: 20px;
     align-items: center;
@@ -355,7 +362,7 @@
     display: flex;
     margin-top: 20px;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: var(--third-color);
     background-color:#373A40;
    
 
@@ -370,7 +377,7 @@
 .f1>h3{
     margin-top: 50px;
     font-size: 25px;
-    color:white;
+    color:var(--third-color);
 }
 
 .f1>button{
@@ -381,13 +388,13 @@
 
 .b1{
     background-color: rgb(57, 114, 180);
-    color: white;
+    color: var(--third-color);
 }
 
 .f1>p{
     margin-top: 25px;
     line-height: 10px;
-    color:white; 
+    color:var(--third-color); 
 }
 
 .f1>a{
@@ -399,7 +406,7 @@
 }
 
 .f1>ul>li{
-    color: white;
+    color: var(--third-color);
   margin: 20px;
 }
 
@@ -411,7 +418,7 @@
 }
 .f1>.b3{
     background-color: whitesmoke;
-    color: orange;
+    color: var(--first-color);
     border: 1px solid whitesmoke;
    /* padding: 20px; */
    width: 180px;

@@ -3,9 +3,17 @@
         margin: 0;
     }
 
+    :root{
+        --primary-color:black;
+        --first-color:orange;
+        --second-color:gray;
+        --third-color:white;
+        
+    }
+
     .main{
         width: 100%;
-        border: 1px solid black;
+        border: 1px solid var(--primary-color);
     }
 
     .container{
@@ -41,7 +49,7 @@
     }
     .nav2>a{
         text-decoration: none;
-        color: black;
+        color:var(--primary-color);
     }
 
     .home{
@@ -67,13 +75,13 @@
         padding: 10px;
         text-align: center;
         font-size: 25px;
-        color: black;
+        color:var(--primary-color);
     }
 
     .home2>a{
         text-decoration: none;
         margin-left: 25px;
-        color: black;
+        color:var(--primary-color);
     }
 
     .images{
@@ -84,26 +92,52 @@
     .image{
         max-width: 1900px;
         min-width: 150px;
-        
+       
         margin: 10px;
 
     }
 
-    .img1{
-        width: 1850px;
+    .img-scroll{
+        max-width: 1880px;
         height: 600px;
-       
-        margin: 5px;
-        padding: 10px;
-        background-image: url(images/img1.jpg);
-        background-position: center;
         position: relative;
-    
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .img-scrolled{
+        display: flex;
+        width: 7520px;
+        height: 600px;
+
+    }
+
+    .img-scrolled>img{
+        width: 1880px;
+        height: 600px;
+        position: relative;
+    }
+
+    .img1{
+       /* top: 10%;
+       left: 2%;
+       position: absolute; */
+        /* background-image: url(images/img1.jpg); */
+        /* background-position: center;
+        position: relative; */
+        top: 10%;
+        left: 30%;
+        transform: translateX(-50%);
+        max-width: 70%;
+        min-width: 400px;
+        position: absolute;
         
     }
 
+    
+
     .img1>h2{
-        color: white;
+        color:var(--third-color);
         font-size: 40px;
         margin-left: 400px;
         margin-top: 110px;
@@ -112,18 +146,41 @@
 
     .img1>p{
         font-size: 25px;
-        color: white;
+        color:var(--third-color);
         margin-left: 400px;
     }
 
     .img1>button{
       padding: 20px;  
-      background-color: white;
+      background-color:var(--third-color);
       color: rgb(246, 174, 7);
       font-size: 20px;
       border-radius: 30px;
-      border: 1px solid white;
+      border: 1px solid var(--third-color);
       margin-left: 400px;
+    }
+
+    .bookmark{
+        position: relative;
+        bottom: 50px;
+        left: 50%;
+        z-index: 10;
+        padding: 3px;
+        width: 100px;
+    }
+
+    .bookmark>ul>li>a{
+        text-decoration: none;
+        color: var(--third-color);
+    }
+    .bookmark ul {
+        display: flex;
+        position: relative;
+    }
+    .bookmark li {
+        list-style: none;
+        color: var(--third-color);
+        padding: 2px;
     }
 
     .information{
@@ -133,7 +190,7 @@
 
     .information>p{
         margin-left: 200px;
-        color: gray;
+        color: var(--second-color);
     }
 
     .info{
@@ -151,6 +208,13 @@
        
         margin: 5px;
         padding: 10px;
+    }
+    .info1>h3>i{
+        background-color:var(--first-color);
+        color: var(--third-color);
+        border-radius: 50%;
+        border: 1px solid var(--first-color);
+        padding: 9px;
     }
 
     .options{
@@ -240,7 +304,6 @@
 
       .pro1{
         width: 250px;
-        /* height: 300px; */
         margin: 20px;
         padding: 10px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -264,7 +327,7 @@
 
     .overlay>button{
         display: none;
-        background-color: white;
+        background-color:var(--third-color);
         color: rgb(59, 33, 96);
         border-radius: 20px;
         padding: 10px;
@@ -277,7 +340,7 @@
 
     .overlay>.add{
         display: none;
-        background-color: orange;
+        background-color: var(--first-color);
         color:white;
         border-radius: 20px;
         padding: 10px;
@@ -292,7 +355,7 @@
 
     .overlay>p{
         display: none;
-        color:white;
+        color:var(--third-color);
         padding: 10px;
         font-size: 20px;
         align-items: center;
@@ -451,9 +514,9 @@
      }
 
      .perinfo>button{
-        background-color: orange;
-        border: 1px solid orange;
-        color: white;
+        background-color: var(--first-color);
+        border: 1px solid var(--first-color);
+        color: var(--third-color);
         padding: 10px 20px;
         margin: 20px;
        
@@ -470,7 +533,7 @@
      }
 
      .aboutus{
-        width: 100%;
+        width: 1880px;
         background-color: gainsboro;
         padding: 20px;
      }
@@ -483,7 +546,7 @@
         display: flex;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         justify-content: space-evenly;
-        background-color: white;
+        background-color: var(--third-color);
        
     }
 
@@ -508,26 +571,27 @@
     }
     .us>button{
         margin-top: 30px;
-        color: orange;
-        border: 1px solid orange;
+        color: var(--first-color);
+        border: 1px solid var(--first-color);
         padding: 10px 20px;
         border-radius: 20px;
+        background-color: transparent;
     }
     .us>button:hover{
-        background-color: orange;
-        color: white;
+        background-color: var(--first-color);
+        color: var(--third-color);
     }
 
     .us>h4{
         margin: 30px;
         font-size: 30px;
-        border: 1px solid gray;
+        border: 1px solid var(--second-color);
         border-radius: 100px;
         display: inline-block;
     }
 
     .us>h4>i{
-        color: orange;
+        color: var(--first-color);
         padding: 5px;
     }
 
@@ -550,7 +614,7 @@
         display: flex;
         margin-top: 20px;
         justify-content: space-evenly;
-        background-color: white;
+        background-color: var(--third-color);
         background-color:#373A40;
        
 
@@ -565,7 +629,7 @@
     .f1>h3{
         margin-top: 50px;
         font-size: 25px;
-        color:white;
+        color:var(--third-color);
     }
 
     .f1>button{
@@ -576,13 +640,13 @@
 
     .b1{
         background-color: rgb(57, 114, 180);
-        color: white;
+        color: var(--third-color);
     }
 
     .f1>p{
         margin-top: 25px;
         line-height: 10px;
-        color:white; 
+        color:var(--third-color); 
     }
     
     .f1>a{
@@ -594,7 +658,7 @@
     }
 
     .f1>ul>li{
-        color: white;
+        color: var(--third-color);
       margin: 20px;
     }
 
@@ -606,7 +670,7 @@
     }
     .f1>.b3{
         background-color: whitesmoke;
-        color: orange;
+        color: var(--first-color);
         border: 1px solid whitesmoke;
        /* padding: 20px; */
        width: 180px;
