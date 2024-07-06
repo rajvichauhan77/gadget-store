@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color:black;
+    --first-color:orange;
+    --second-color:gray;
+    --third-color:white;
+    
+}
+.main{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+}
+header{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 100%;
+   
+}
+
+.nav{
+    max-width: 1900px;
+    min-width: 150px;
+   
+    margin: 10px;
+    display: flex;
+
+
+}
+
+.nav1{
+    width: 1500px;
+    
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav2{
+    width: 400px;
+    margin: 5px;
+    padding: 10px;
+    
+    text-align: left;
+    font-size: 25px;
+}
+.nav2>a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.home{
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home1{
+    max-width: 1900px;
+    min-width: 150px;
+   
+    margin: 10px;
+    display: flex;
+   
+}
+
+.home2{
+    width: 1850px;
+    
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.home2>a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: var(--primary-color);
+}
+
+.cheakout{
+    width: 100%;
+   
+    margin-top: 20px;
+    
+}
+.cheak{
+    width: 1500px;
+    
+    margin: auto;
+    padding:20px;
+    display: flex;
+}
+.cheak>a{
+    text-decoration: none;
+    color: var(--first-color);
+}
+.cheak>i{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.cheak2{
+    width: 100%;
+ 
+    margin-top: 20px;
+    
+}
+
+.c1{
+    width: 1500px;
+ 
+    margin: auto;
+    padding:20px;
+    display: flex;
+    
+}
+.c1>p{
+   margin-left: 400px;
+}
+
+.cheak3{
+    width: 100%;
+   
+    margin-top: 20px;
+    
+    
+}
+
+.form{
+    width: 1500px;
+    
+    margin: auto;
+    padding:20px;
+    display: flex;
+    position: relative;
+    
+}
+
+.stiky{
+    position: sticky;
+    top: 0;
+}
+
+.form1{
+    width: 900px;
+    margin: 10px;
+    padding: 20px;
+    border-right: 1px solid rgb(173, 166, 166);
+    
+}
+.f11>h5{
+    font-size: 20px;
+}
+
+.fname1>input{
+    padding: 5px 55px;
+}
+
+.fname2>input{
+    padding: 5px 55px;
+}
+
+.fname{
+   
+    display: flex;
+}
+
+.fname2{
+    margin-left: 250px;
+   
+}
+.form2{
+    width: 500px;
+    margin: 10px;
+    padding: 20px;
+   
+    position: sticky;
+    top: 0px;
+}
+
+.f11>input{
+    padding: 5px 320px;
+}
+
+.fadd>input{
+   padding: 30px 320px;
+}
+
+.fcity{
+    display: flex;
+}
+
+.fc>input{
+    padding: 5px 55px;
+    margin-right: 30px;
+}
+
+.state{
+    display: flex;
+}
+.s1>input{
+    padding: 5px 55px;
+    margin-right: 30px;
+}
+
+.s2>input{
+    padding: 5px 55px;
+    margin-right: 30px;
+}
+.tele>input{
+        padding: 10px 320px;
+     }
+
+     .coupen{
+        display: flex;
+     }
+
+     .cc1>input{
+        padding: 8px 55px;
+        
+     }
+     
+
+     .c2>a>button{
+        background-color: var(--first-color);
+        color: var(--third-color);
+        border: 1px solid var(--first-color);
+        padding: 8px 20px;
+        margin-left: 5px;
+      
+}
+
+.billbutton>a>button{
+        background-color: var(--first-color);
+        color: var(--third-color);
+        border: 1px solid var(--first-color);
+        padding: 8px 25px;
+        margin-left: 710px;
+      
+}
+
+.summary1>h6{
+    font-size: 15px;
+    
+}
+.summary2{
+    display: flex;
+}
+.summary2>p{
+    line-height: 20px;
+    margin-top: 10px;
+    
+}
+.summary2>.p10{
+ 
+    margin-left: 180px;
+}
+
+.summary3{
+    display: flex;
+}
+.summary3>p{
+   
+    margin-top: 10px;
+    
+}
+.summary3>h6{
+    font-size: 15px;
+    margin-left: 260px;
+    margin-top: 10px;
+}
+
+.footer{
+    width: 100%;
+    background-color:#373A40;
+
+}
+
+.footer1{
+    max-width: 1300px;
+    min-width: 150px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    background-color: var(--third-color);
+    background-color:#373A40;
+   
+
+}
+.f1{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+  
+}
+
+.f1>h3{
+    margin-top: 50px;
+    font-size: 25px;
+    color:var(--third-color);
+}
+
+.f1>button{
+    
+    font-size: 15px;
+    padding: 5px;
+}
+
+.b1{
+    background-color: rgb(57, 114, 180);
+    color: var(--third-color);
+}
+
+.f1>p{
+    margin-top: 25px;
+    line-height: 10px;
+    color:var(--third-color); 
+}
+
+.f1>a{
+    text-decoration: none;
+    margin-top: 50px;
+}
+.f1>a>i{
+    color: rgb(160, 149, 149);
+}
+
+.f1>ul>li{
+    color: var(--third-color);
+  margin: 20px;
+}
+
+.f1>input{
+    background-color: #373A40;
+    color: azure;
+    border: 1px solid rgb(143, 136, 136);
+    padding: 5px;
+}
+.f1>.b3{
+    background-color: whitesmoke;
+    color: var(--first-color);
+    border: 1px solid whitesmoke;
+   /* padding: 20px; */
+   width: 180px;
+    
+}

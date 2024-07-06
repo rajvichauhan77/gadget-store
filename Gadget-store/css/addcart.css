@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color:black;
+    --first-color:orange;
+    --second-color:gray;
+    --third-color:white;
+    
+}
+.main{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+}
+header{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container{
+    width: 100%;
+   
+}
+
+.nav{
+    max-width: 1900px;
+    min-width: 150px;
+   
+    margin: 10px;
+    display: flex;
+
+
+}
+
+.nav1{
+    width: 1500px;
+    
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav2{
+    width: 400px;
+    margin: 5px;
+    padding: 10px;
+    
+    text-align: left;
+    font-size: 25px;
+}
+.nav2>a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+.home{
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home1{
+    max-width: 1900px;
+    min-width: 150px;
+   
+    margin: 10px;
+    display: flex;
+   
+}
+
+.home2{
+    width: 1850px;
+    
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.home2>a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: var(--primary-color);
+}
+
+.addcart{
+    width: 100%;
+    
+}
+
+.cart{
+    width: 1500px;
+   
+    margin: auto;
+    padding: 20px;
+}
+
+.cart1{
+    width: 1400px;
+   
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.additem1{
+    width: 700px;
+  
+    margin: 10px;
+    padding: 20px;
+}
+.additem1>p{
+    color: #57585a;
+}
+
+.additem{
+    width: 200px;
+  
+    margin: 10px;
+    padding: 20px;
+}
+.additem>p{
+    color: #57585a;
+}
+
+.cart2{
+    width: 1400px;
+    
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.additem2{
+    width: 100px;
+  
+    margin: 10px;
+    padding: 20px;
+}
+.additem2>img{
+    width: 100px;
+    
+}
+.additem3>p{
+    margin-top: 10px;
+    color: var(--first-color);
+}
+.additem3>h5{
+    line-height: 30px;
+    color: #57585a;
+    font-size: 20px;
+}
+
+.additem>h5{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #57585a;
+}
+.additem>i{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #57585a;
+   
+}
+
+.additem3{
+    width: 200px;
+    
+    margin-right: 300px;
+    padding: 20px;
+}
+
+.cart3{
+    width: 1400px;
+
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.c3{
+    width: 1350px;
+  
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+}
+.c3box>a>button{
+    background-color: var(--third-color);
+    color: var(--first-color);
+    border: 1px solid var(--first-color);
+    padding: 10px 30px;
+   
+}
+.c3box>a>button:hover{
+    color: var(--third-color);
+    background-color: var(--first-color);
+}
+
+.c3box2>a>button{
+    background-color: var(--first-color);
+    color: var(--third-color);
+    border: 1px solid var(--first-color);
+    padding: 10px 30px;
+    margin-left: 1050px;
+}
+.c3box2>a>button:hover{
+    color: var(--third-color);
+    background-color: rgb(199, 98, 61);
+}
+
+.footer{
+    width: 100%;
+    background-color:#373A40;
+
+}
+
+.footer1{
+    max-width: 1300px;
+    min-width: 150px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    background-color: var(--third-color);
+    background-color:#373A40;
+   
+
+}
+.f1{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+  
+}
+
+.f1>h3{
+    margin-top: 50px;
+    font-size: 25px;
+    color:var(--third-color);
+}
+
+.f1>button{
+    
+    font-size: 15px;
+    padding: 5px;
+}
+
+.b1{
+    background-color: rgb(57, 114, 180);
+    color: var(--third-color);
+}
+
+.f1>p{
+    margin-top: 25px;
+    line-height: 10px;
+    color:var(--third-color); 
+}
+
+.f1>a{
+    text-decoration: none;
+    margin-top: 50px;
+}
+.f1>a>i{
+    color: rgb(160, 149, 149);
+}
+
+.f1>ul>li{
+    color: var(--third-color);
+  margin: 20px;
+}
+
+.f1>input{
+    background-color: #373A40;
+    color: azure;
+    border: 1px solid rgb(143, 136, 136);
+    padding: 5px;
+}
+.f1>.b3{
+    background-color: whitesmoke;
+    color: var(--first-color);
+    border: 1px solid whitesmoke;
+   /* padding: 20px; */
+   width: 180px;
+    
+}
